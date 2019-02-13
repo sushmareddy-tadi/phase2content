@@ -1,0 +1,60 @@
+body{
+	background: bisque;
+
+}
+.maindiv{
+	background: orange;
+	display:flex;
+	box-shadow:2px 2px 2px 2px;
+	
+}
+.leftdiv{
+	background: aqua;
+    width:35%;
+	height:25%;
+	margin: 2%;
+	box-shadow:2px 2px 2px 2px;
+	padding: 1%;
+	}
+.rightdiv{
+    background: pink;
+	width:35%;
+	height:25%;
+	margin: 2%;
+	box-shadow:2px 2px 2px 2px;
+	padding: 1%;
+
+}
+/*mobile view*/
+/*@media screen (max-width: 480px){
+	body{
+	background: #CD5C5C;
+
+}
+.maindiv{
+	background: #8E44AD  ;
+	display:flex;
+	box-shadow:2px 2px 2px 2px;
+	
+}
+.leftdiv{
+	background: #99A3A4 ;
+    width:35%;
+	height:25%;
+	margin: 2%;
+	box-shadow:2px 2px 2px 2px;
+	padding: 2%;
+	}
+	.rightdiv{
+    background: #F7DC6F ;
+	width:35%;
+	height:25%;
+	margin: 2%;
+	box-shadow:2px 2px 2px 2px;
+	padding: 2%;
+
+}
+
+}*/
+
+

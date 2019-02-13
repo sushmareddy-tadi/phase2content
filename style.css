@@ -1,0 +1,203 @@
+/*resume form styles*/
+
+body{
+	background: #F08080;
+	text-align: center;
+}
+
+.main{
+	background: #AEB6BF;
+	display: flex;
+	margin: 2%;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	border-radius: 2%;
+}
+.sub{
+	width: 90%;
+	background: #F5CBA7;
+	margin: 2%;
+	text-align: center;
+	border-radius: 4%;
+	padding: 1%;
+}
+.sub1{
+	background:#33FFF0 ;
+	width: 35%;
+	height:40%; 
+	text-align: center;
+	margin:5%;
+	border-radius: 5%;
+}
+select,input{
+	margin:1%;
+	width: 98%;
+}
+/*index page styles*/
+body{
+	background: green;
+	text-align: center;
+}
+.main1{
+	background: yellow;
+	text-align: center;
+
+}
+#sub11{
+	background: aqua;
+	text-align: center;
+	margin: 3%;
+	width:90%;
+	padding: 2%;
+	height: 25%;
+	border-radius:4%;
+
+}
+.profile{
+	color: red;
+}
+#sub12{
+	background: red;
+	text-align: center;
+	padding: 2%;
+	width: 90%;
+	height:25%;
+	border-radius:4%;
+	margin: 3%;
+
+}
+/*mobile view for index*/
+
+@media screen and (min-width: 0px) (max-width: 480px){
+
+body{
+	background: grey;
+	text-align: center;
+}
+.main1{
+	background: orange;
+	text-align: center;
+
+}
+#sub11{
+	background: lightgreen;
+	text-align: center;
+	margin: 3%;
+	width:90%;
+	padding: 2%;
+	height: 25%;
+	border-radius:4%;
+
+}
+#sub12{
+	background: purple;
+	text-align: center;
+	padding: 2%;
+	width: 90%;
+	height:25%;
+	border-radius:4%;
+	margin: 3%;
+
+}
+}
+/*tablet view for index*/
+@media screen and (min-width: 481px) and (max-width: 1024px){
+
+body{
+	background: red;
+	text-align: center;
+}
+.main1{
+	background: blue;
+	text-align: center;
+
+}
+#sub11{
+	background: pink;
+	text-align: center;
+	margin: 3%;
+	width:90%;
+	padding: 2%;
+	height: 25%;
+	border-radius:4%;
+
+}
+#sub12{
+	background: brown;
+	text-align: center;
+	padding: 2%;
+	width: 90%;
+	height:25%;
+	border-radius:4%;
+	margin: 3%;
+
+}
+}
+/* mobile view resume form styles*/
+@media screen and (min-width: 0px) and (max-width: 480px){
+
+body{
+	background: orange;
+	text-align: center;
+}
+
+.main{
+	background: red;
+    display: inline-block;
+    
+	margin: 2%;
+	justify-content: center;
+	border-radius: 2%;
+}
+.sub{
+	width: 90%;
+	background: violet;
+	margin: 2%;
+	text-align: center;
+	border-radius: 4%;
+	padding: 1%;
+}
+.sub1{
+	background:bisque;
+	width: 65%;
+	height:40%; 
+	text-align: center;
+	margin:5%;
+	border-radius: 5%;
+}
+
+}
+/* tablet view resume form styles*/
+@media screen and (min-width: 480px) and (max-width: 1024px){
+body{
+	background: white;
+	text-align: center;
+}
+
+.main{
+	background: lightgreen;
+	display:inline-block;
+	margin: 2%;
+	
+	justify-content: center;
+	border-radius: 2%;
+}
+.sub{
+	width: 90%;
+	background: lightpink;
+	margin: 2%;
+	text-align: center;
+	border-radius: 4%;
+	padding: 1%;
+}
+.sub1{
+	background:darkblue;
+	width: 65%;
+	height:40%; 
+	text-align: center;
+	margin:5%;
+	border-radius: 5%;
+}
+
+}
